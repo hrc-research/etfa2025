@@ -36,6 +36,27 @@
 			border-radius: 12px; /* opzionale per angoli morbidi */
 			box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* opzionale per un po' di profondità */
 		}
+		.circular-image {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		.tpc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+		}
+		.tpc-member {
+				padding: 10px;
+				border-left: 4px solid #007acc;
+				background: #f9f9f9;
+				border-radius: 8px;
+				transition: background 0.3s;
+		}
+		.tpc-member:hover {
+				background: #e0f2ff;
+		}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -254,7 +275,99 @@
 							</ul>											
 								
 							</div>
+						<!-- </section> -->
+						<!-- Technical Program Committee Section -->
+						<!-- Technical Program Committee Section -->
+						<!-- <section id="tpc" class="main"> -->
+							
+<div class="inner">
+    <header class="major">
+        <h2>Technical Program Committee</h2>
+    </header>
+		<ul class="tpc-list">
+			<li><strong><a href="https://www.arscontrol.unimore.it/andrea-pupa/" target="_blank">Andrea Pupa</a></strong> - University of Modena and Reggio Emilia</li>
+			<li><strong><a href="https://m-lippi.github.io/" target="_blank">Martina Lippi</a></strong> - University of Roma Tre</li>
+			<li><strong><a href="https://www.istc.cnr.it/en/people/alessandro-umbrico" target="_blank">Alessandro Umbrico</a></strong> - CNR-ISTC</li>
+			<li><strong><a href="https://gsyc.urjc.es/~fmartin/" target="_blank">Francisco Martín Rico</a></strong> - Rey Juan Carlos University</li>
+			<li><strong><a href="https://iocnet.upc.edu/usuaris/jan.rosell/" target="_blank">Jan Rosell</a></strong> - Universitat Politècnica de Catalunya</li>
+			<li><strong><a href="https://www.iit.it/people/marta-lorenzini" target="_blank">Marta Lorenzini</a></strong> - Istituto Italiano di Tecnologia</li>
+			<li><strong><a href="https://www.researchgate.net/profile/Dionisis-Andronas" target="_blank">Dionisis Andronas</a></strong> - University of Patras</li>
+			<li><strong><a href="https://www.ias.tum.de/ias/nachbagauer-karin/" target="_blank">Karin Nachbagauer</a></strong> - University of Applied Sciences Upper Austria</li>
+			<li><strong><a href="https://www.supsi.ch/giorgio-marco-nicola" target="_blank">Giorgio Nicola</a></strong> - University of Applied Sciences and Arts of Southern Switzerland</li>
+			<li><strong><a href="https://www.unibs.it/it/ugov/person/50809" target="_blank">Roberto Pagani</a></strong> - University of Brescia</li>
+			<li><strong><a href="https://www.ce.cit.tum.de/en/rsi/team/hamad-mazin/" target="_blank">Mazin Hamad</a></strong> - Technical University of Munich</li>
+			<li><strong><a href="https://lms.mech.upatras.gr/lms-key-personnel/dr-sotiris-makris/" target="_blank">Sotiris Makris</a></strong> - University of Patras</li>
+	</ul>
+	</div>
+							<!-- <div class="inner">
+									<header class="major">
+											<h2>Technical Program Committee</h2>
+									</header>
+									<ul class="features">
+											<li>
+													<img src="images/tpc/apupa.jpg" alt="Andrea Pupa" class="circular-image">
+													<h3>Andrea Pupa</h3>
+													<p>University of Modena and Reggio Emilia</p>
+											</li>
+											<li>
+													<img src="images/tpc/mlippi.jpg" alt="Martina Lippi" class="circular-image">
+													<h3>Martina Lippi</h3>
+													<p>University of Roma Tre</p>
+											</li>
+											<li>
+													<img src="images/tpc/aumbrico.png" alt="Alessandro Umbrico" class="circular-image">
+													<h3>Alessandro Umbrico</h3>
+													<p>CNR-ISTC</p>
+											</li>
+											<li>
+													<img src="images/tpc/frico.jpg" alt="Francisco Martín Rico" class="circular-image">
+													<h3>Francisco Martín Rico</h3>
+													<p>Rey Juan Carlos University</p>
+											</li>
+											<li>
+													<img src="images/tpc/jrosell.jpg" alt="Jan Rosell" class="circular-image">
+													<h3>Jan Rosell</h3>
+													<p>Universitat Politècnica de Catalunya</p>
+											</li>
+											<li>
+													<img src="images/tpc/mlorenzini.jpeg" alt="Marta Lorenzini" class="circular-image">
+													<h3>Marta Lorenzini</h3>
+													<p>Istituto Italiano di Tecnologia</p>
+											</li>
+											<li>
+													<img src="images/tpc/dandronas.jpg" alt="Dionisis Andronas" class="circular-image">
+													<h3>Dionisis Andronas</h3>
+													<p>University of Patras</p>
+											</li>
+											<li>
+													<img src="images/tpc/knachbagauer.jpeg" alt="Karin Nachbagauer" class="circular-image">
+													<h3>Karin Nachbagauer</h3>
+													<p>University of Applied Sciences Upper Austria</p>
+											</li>
+											<li>
+													<img src="images/tpc/giorgio_nicola.jpg" alt="Giorgio Nicola" class="circular-image">
+													<h3>Giorgio Nicola</h3>
+													<p>University of Applied Sciences and Arts of Southern Switzerland</p>
+											</li>
+											<li>
+													<img src="images/tpc/rpagani.jpeg" alt="Roberto Pagani" class="circular-image">
+													<h3>Roberto Pagani</h3>
+													<p>University of Brescia</p>
+											</li>
+											<li>
+													<img src="images/tpc/mhamad.png" alt="Mazin Hamad" class="circular-image">
+													<h3>Mazin Hamad</h3>
+													<p>Technical University of Munich</p>
+											</li>
+											<li>
+													<img src="images/tpc/smarkris.jpg" alt="Sotiris Makris" class="circular-image">
+													<h3>Sotiris Makris</h3>
+													<p>University of Patras</p>
+											</li>
+									</ul>
+							</div> -->
 						</section>
+
 							
 							<section id="contact" class="main special">
 							<div class="inner">
